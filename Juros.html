@@ -1,0 +1,692 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="./" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>Juros e a Proporcionalidade &#8212; Proporcionalidade e Educação Financeira</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="_static/styles/theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="_static/styles/bootstrap.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="_static/styles/pydata-sphinx-theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+
+  
+  <link href="_static/vendor/fontawesome/6.5.2/css/all.min.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=f0c89327" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/sphinx-book-theme.css?v=eba8b062" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css?v=13237357" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css?v=76b2166b" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css?v=be8a1c11" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css?v=4fa983c6" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-design.min.css?v=95c83b7e" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-design.min.css?v=95c83b7e" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css?v=76b2166b" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css?v=be8a1c11" />
+    <link rel="stylesheet" type="text/css" href="_static/basic.css?v=d2032c04" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css?v=13237357" />
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=f0c89327" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css?v=4fa983c6" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/sphinx-book-theme.css?v=eba8b062" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/theme.css?v=a243ae73" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/bootstrap.css?v=b4a3e8ba" />
+    <link rel="stylesheet" type="text/css" href="_static/vendor/fontawesome/6.5.2/css/all.min.css?v=f4fbef65" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b" />
+<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b" />
+  <script src="_static/vendor/fontawesome/6.5.2/js/all.min.js?digest=dfe6caa3a7d634c4db9b"></script>
+
+    <script src="_static/documentation_options.js?v=9eb32ce0"></script>
+    <script src="_static/doctools.js?v=9a2dae69"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/clipboard.min.js?v=a7894cd8"></script>
+    <script src="_static/copybutton.js?v=f281be69"></script>
+    <script src="_static/scripts/sphinx-book-theme.js?v=887ef09a"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="_static/togglebutton.js?v=4a39c7ea"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="_static/design-tabs.js?v=f930bc37"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script async="async" src="_static/sphinx-thebe.js?v=c100c467"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'Juros';</script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+    <script src="_static/doctools.js?v=9a2dae69"></script>
+    <script src="_static/clipboard.min.js?v=a7894cd8"></script>
+    <script src="_static/searchtools.js?v=d24376de"></script>
+    <script src="_static/sphinx-thebe.js?v=c100c467"></script>
+    <script src="_static/copybutton.js?v=f281be69"></script>
+    <script src="_static/documentation_options.js?v=9eb32ce0"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/language_data.js?v=d4673a71"></script>
+    <script src="_static/design-tabs.js?v=f930bc37"></script>
+    <script src="_static/togglebutton.js?v=4a39c7ea"></script>
+    <script src="_static/copybutton_funcs.js?v=776a791e"></script>
+    <script src="_static/scripts/pydata-sphinx-theme.js?v=4bc35cb3"></script>
+    <script src="_static/scripts/bootstrap.js?v=7583a70d"></script>
+    <script src="_static/scripts/sphinx-book-theme.js?v=887ef09a"></script>
+    <script src="_static/vendor/fontawesome/6.5.2/js/all.min.js?v=4e4fcec4"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="Proporcionalidade na Educação Financeira" href="Educa%C3%A7%C3%A3o%20financeira.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-primary-sidebar-checkbox"/>
+  <label class="overlay overlay-primary" for="pst-primary-sidebar-checkbox"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-secondary-sidebar-checkbox"/>
+  <label class="overlay overlay-secondary" for="pst-secondary-sidebar-checkbox"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+    
+  
+
+<a class="navbar-brand logo" href="Front_Page.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="_static/Actor_X_Action.png" class="logo__image only-light" alt="Proporcionalidade e Educação Financeira - Home"/>
+    <script>document.write(`<img src="_static/Actor_X_Action.png" class="logo__image only-dark" alt="Proporcionalidade e Educação Financeira - Home"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item">
+
+ <script>
+ document.write(`
+   <button class="btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="Front_Page.html">
+                    Front Page
+                </a>
+            </li>
+        </ul>
+        <ul class="current nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="Or%C3%A7amento%20familiar.html">Planejamento Financeiro Familiar</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Educa%C3%A7%C3%A3o%20financeira.html">Proporcionalidade na Educação Financeira</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Juros e a Proporcionalidade</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><button class="sidebar-toggle primary-toggle btn btn-sm" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</button></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://github.com/executablebooks/jupyter-book" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2FJuros.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button dropdown-item"
+   title="Open an issue"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="btn__text-container">Open issue</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="_sources/Juros.ipynb" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.ipynb</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="theme-switch fa-solid fa-sun fa-lg" data-mode="light"></i>
+    <i class="theme-switch fa-solid fa-moon fa-lg" data-mode="dark"></i>
+    <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"></i>
+  </button>
+`);
+</script>
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm pst-navbar-icon search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+  </button>
+`);
+</script>
+
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Juros e a Proporcionalidade</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section id="juros-e-a-proporcionalidade">
+<h1>Juros e a Proporcionalidade<a class="headerlink" href="#juros-e-a-proporcionalidade" title="Link to this heading">#</a></h1>
+<p>Os conceitos de juros e proporcionalidade são fundamentais para compreender como o dinheiro cresce ao longo do tempo e como diferentes valores se relacionam em situações financeiras. Entender essas relações nos ajuda a tomar decisões conscientes sobre empréstimos, investimentos e compras parceladas, essa é a importância do estudo da proporcionalidade nos juros simples e compostos.</p>
+<div class="math notranslate nohighlight">
+\[\textbf{I - Para recordar}\]</div>
+<p><strong>1.</strong> Cite ao menos três situações do cotianos que já ouviu a palavra JUROS?</p>
+<div class="tip dropdown admonition">
+<p class="admonition-title">Sugestão!</p>
+<p>Em todos os tipos de conta a prazo, contas atrasadas…</p>
+</div>
+<p><strong>2.</strong> A proporcionalidade na educação financeira está diretamente conectada ao conceito de porcentagem. Mas o que é porcentagem? Exemplifique.</p>
+<div class="tip dropdown admonition">
+<p class="admonition-title">Compare sua resposta!</p>
+<p>Certa parte de <span class="math notranslate nohighlight">\(100\)</span>, divisão por cento ou a cada <span class="math notranslate nohighlight">\(100\)</span>. Exemplo: <span class="math notranslate nohighlight">\(10\%\)</span> de <span class="math notranslate nohighlight">\(500\)</span> é <span class="math notranslate nohighlight">\(\frac{10}{100} \cdot 500 = 50\)</span></p>
+</div>
+<p><strong>3.</strong> O valor inicial numa negociação de empréstimo é chamado de <strong>Capital</strong> e o valor a ser cobrado ou pago a mais é chamado de <strong>Juros</strong>. Como chamamos o valor referente ao juros em porcentagem (%)?</p>
+<div class="tip dropdown admonition">
+<p class="admonition-title">Compare sua resposta!</p>
+<p>Taxa de juros, comumente se usa a letra <em>i</em>.</p>
+</div>
+<p><strong>Atividade 1</strong></p>
+<p>Numa loja de roupas uma calça jeans custa <span class="math notranslate nohighlight">\(R\$200\)</span> reais, e a vista tem <span class="math notranslate nohighlight">\(10\%\)</span> de desconto. Calcule o valor a ser pago com desconto.</p>
+<div class="tip dropdown admonition">
+<p class="admonition-title">Compare sua resposta!</p>
+<p>Calculando primeiro o valor a ser descontado: <span class="math notranslate nohighlight">\(10\%\)</span> de <span class="math notranslate nohighlight">\(200\)</span> é <span class="math notranslate nohighlight">\(\frac{10}{100}\cdot 200 = 20\)</span>. Então subtraímos o desconto do valor inicial <span class="math notranslate nohighlight">\(200-20=180\)</span> reais</p>
+</div>
+<p><strong><u>Contextualizando:</u></strong></p>
+<p>Juros é o valor acrescido a empréstimos ou investimentos, funcionando como um aluguel do dinheiro emprestado. Quando a situação é um empréstimo, a pessoa que adquiriu o empréstimo pagará juros. Quando é investimento, a pessoa que investiu receberá os juros como lucro. O valor inicial é o Capital e o valor final, após determinado período de juros é chamado montante.</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>Usaremos:
+C = capital ou valor inicial
+i = taxa de juros em porcentagem 
+t = tempo    
+J = Juros; sendo J = C.i.t
+M = Montante; sendo M = C+J 
+</pre></div>
+</div>
+<div class="math notranslate nohighlight">
+\[\textbf{II -Compreendendo a aplicação}\]</div>
+<p><strong>4.</strong> Considerando as nomenclaturas para Montante, Capital e Juros. Explique o que é Montante apresentando um exemplo.</p>
+<div class="tip dropdown admonition">
+<p class="admonition-title">Sugestão!</p>
+<p>Montante: é o valor final, composto pelo capital (valor inicial) e o juro. Exemplos em situações de empréstimos, contas atrasadas ou compras parceladas.</p>
+</div>
+<p><strong>Atividade 2:</strong>
+Consideremos as seguintes situações problemas</p>
+<p>a) Santos está com dificuldades financeiras esse mês, para conseguir quitar suas dívidas, precisou emprestar dinheiro. Emprestou do banco 200,00 reais e precisará devolver 210,00. Qual foi o acréscimo em reais? E em porcentagem?</p>
+<p>b) Uma peça de roupa custa 100,00 reais. No cartão de crédito é possível parcelar em 9 vezes de 12,00 reais. Foi adicionado juros? Quanto?</p>
+<div class="tip dropdown admonition">
+<p class="admonition-title">Sugestão!</p>
+<p>a) Montante - capital = juros. Para calcular a porcentagem é apenas utilizar regra de três com as variáveis: valor do capital, porcentagem 100% e  valor do juros.<br />
+b) calcular o valor total pago e verificar a diferença entre montante e capital.</p>
+</div>
+<div class="math notranslate nohighlight">
+\[\textbf{III - Aplicação na prática}\]</div>
+<p><strong>Atividade 3</strong>
+Um capital de <span class="math notranslate nohighlight">\(R\$ 2000,00\)</span> reais é aplicado à taxa de juros de <span class="math notranslate nohighlight">\(5\%\)</span> ao mês por 6 meses. Calcule o Juros e o Montante sob regime de juros simples.</p>
+<div class="tip dropdown admonition">
+<p class="admonition-title">Confira sua resposta!</p>
+<p>Juros: <span class="math notranslate nohighlight">\(J=2000.\frac{5}{100}.6 = 600\)</span>
+Montante: <span class="math notranslate nohighlight">\(M= 2000+600 = 2600\)</span></p>
+</div>
+<p><strong>Atividade 4</strong></p>
+<p>Explique com suas palavras como a proporcionalidade aparece no cálculo de juros.</p>
+<div class="tip dropdown admonition">
+<p class="admonition-title">Sugestão!</p>
+<p>Volte na definição de porcentagem da atividade 2 e relacione sua resposta a esse conceito</p>
+</div>
+<p>Há dois tipos de juros utilizados nas operações financeiras: <strong>juros simples</strong> e <strong>juros compostos</strong>. E podemos relacioná-los à funções.</p>
+<p><strong>JUROS SIMPLES</strong></p>
+<p>No juro simples a taxa de juros é aplicada periodicamente sobre o valor do Capital, isto é, o crescimento do juro e montante são lineares, todos os meses aumentará o mesmo valor. Com isso podemos estabelecer uma função afim <span class="math notranslate nohighlight">\(f\)</span> relacionando tempo <span class="math notranslate nohighlight">\(x\)</span> a montante <span class="math notranslate nohighlight">\(f(x)\)</span>.</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>f(x) = C + C.i.x
+</pre></div>
+</div>
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+<span class="sd-summary-text">Exemplo 1</span><span class="sd-summary-state-marker sd-summary-chevron-right"><svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-right" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></summary><div class="sd-summary-content sd-card-body docutils">
+<p class="sd-card-text">Um investidor aplicará a juro simples um capital de <span class="math notranslate nohighlight">\(R\$1450,00\)</span> reais com taxa mensal de <span class="math notranslate nohighlight">\(5\%\)</span>. Logo <span class="math notranslate nohighlight">\(f(x)= 1450 +1450.0,05x\)</span></p>
+</div>
+</details><p><strong>Atividade 5:</strong>
+Calcule o montante na situação exemplificada, considerando o tempo de 5 meses.</p>
+<div class="tip dropdown admonition">
+<p class="admonition-title">Sugestão!</p>
+<p><span class="math notranslate nohighlight">\(f(\textcolor{red}{x})= 1450 + 1450.0,05.\textcolor{red}{x} = 1450 + 362,5 = 1812,50\)</span></p>
+</div>
+<div class="math notranslate nohighlight">
+\[\textbf{IV - Hora de comparar}\]</div>
+<p><strong>5.</strong> Se o capital e o tempo dobrarem sob regime de juros simples, o juro também dobra? Isso é considerado uma proporção direta? Justifique.</p>
+<div class="tip dropdown admonition">
+<p class="admonition-title">Dica!</p>
+<p>Considere exemplos numéricos, Capital de <span class="math notranslate nohighlight">\(R\$1000\)</span> aplicado por 1 mês e de <span class="math notranslate nohighlight">\(R\$2000\)</span> aplicando por 2 meses a juro de 1% ao mês.</p>
+</div>
+<p><strong>Atividade 6</strong></p>
+<p>Represente a situação do item 5 usando a relação <span class="math notranslate nohighlight">\(J= C.i.t\)</span>.</p>
+<div class="tip dropdown admonition">
+<p class="admonition-title">Confira sua resposta!</p>
+<p><span class="math notranslate nohighlight">\(J_1=C.i.t\)</span> e <span class="math notranslate nohighlight">\(J_2= 2C.i.2t = 4C.i.t\)</span> então <span class="math notranslate nohighlight">\(J_2= 4.J_1\)</span></p>
+</div>
+<p><strong>6.</strong> O que significa a expressão <strong>JUROS SOBRE JUROS</strong>?</p>
+<div class="tip dropdown admonition">
+<p class="admonition-title">Sugestão!</p>
+<p>Pense no que acontece quando os juros de um período são somados ao valor inicial.</p>
+</div>
+<p><strong>JUROS COMPOSTOS</strong></p>
+<p>No juro composto a taxa de juros é calculada sobre o saldo do mês anterior, isto é, calcula-se também o juro sobre juros já aplicados anteriormente. O cálculo do montante é dado pela fórmula</p>
+<div class="math notranslate nohighlight">
+\[M = C.(1+i)^t\]</div>
+<p>Com isso, podemos estabelecer uma função exponencial <span class="math notranslate nohighlight">\(g\)</span> ao relacionar tempo <span class="math notranslate nohighlight">\(x\)</span> ao montante <span class="math notranslate nohighlight">\(g(x)\)</span>.</p>
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+<span class="sd-summary-text">Exemplo 2</span><span class="sd-summary-state-marker sd-summary-chevron-right"><svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-right" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></summary><div class="sd-summary-content sd-card-body docutils">
+<p class="sd-card-text">Um investidor aplicará a juro composto um capital de 1400,00 reais com taxa de 5% ao mês. Logo <span class="math notranslate nohighlight">\(g(x)= 1400 . 1,05^x\)</span>.</p>
+</div>
+</details><p><strong>7.</strong> Podemos afirmar que no regime de juros composto é possível estabelecer uma relação de proporcionalidade entre o juros e o tempo de aplicação, já que ao aumentar ou diminuir um o outro automaticamente aumentará? Justifique.</p>
+<div class="tip dropdown admonition">
+<p class="admonition-title">Sugestão!</p>
+<p>Compare o que acontece no primeiro período com o que acontece nos períodos seguintes, refleta se os juros de cada período são sempre iguais ou se aumentam com o tempo.</p>
+</div>
+<p><strong>Atividade 7</strong></p>
+<p>Um capital de R$ 2000,00 reais é aplicado à taxa de juros de 5% ao mês por 6 meses.</p>
+<p><strong>a)</strong> Calcule o Juro e o Montante mês a mês sob regime de juros composto.</p>
+<p><strong>b)</strong> Compare o resultado do sexto mês com o resultado da Atividade 3.</p>
+<div class="tip dropdown admonition">
+<p class="admonition-title">Confira suas respostas!</p>
+<p><strong>a)</strong> 1º mês: <span class="math notranslate nohighlight">\(J_1 = 100\)</span> e <span class="math notranslate nohighlight">\(M_1 = 2100\)</span>; 2º mês: <span class="math notranslate nohighlight">\(J_2 = 105\)</span> e <span class="math notranslate nohighlight">\(M_1 = 2205\)</span>; 3º mês: <span class="math notranslate nohighlight">\(J_3 = 110,25\)</span> e <span class="math notranslate nohighlight">\(M_3 = 2315,25\)</span>; 4º mês: <span class="math notranslate nohighlight">\(J_4= 115,76\)</span> e <span class="math notranslate nohighlight">\(M_4= 2431,01\)</span>; 5º mês: <span class="math notranslate nohighlight">\(J_5 = 121,55\)</span> e <span class="math notranslate nohighlight">\(M_5= 2552,56\)</span>; 6º mês: <span class="math notranslate nohighlight">\(J_6 127,63= \)</span> e <span class="math notranslate nohighlight">\(M_6 = 2680,19\)</span></p>
+<p><strong>b)</strong> Certo capital aplicado em determinado período, com mesma taxa percentual resulta sob regime dos juros simples um total de juro de <span class="math notranslate nohighlight">\(R\$ 600,00\)</span> e dos juros compostos de <span class="math notranslate nohighlight">\(R\$ 680,19\)</span>.</p>
+</div>
+<p><strong>8.</strong> O gráfico abaixo representa os exemplos 1 e 2, que tem a mesma taxa percentual aplicados em regimes de juros e capitais distintos no decorrer dos meses. A partir de que mês o montante da aplicação do juro composto será superior a aplicação do juros simples?</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="o">%%html</span>
+<span class="p">&lt;</span><span class="nt">iframe</span> <span class="na">style</span><span class="o">=</span><span class="s">&quot;margin-top:0px;margin-left:-20px;&quot;</span> <span class="na">src</span><span class="o">=</span><span class="s">&quot;https://www.desmos.com/calculator/pgemmiv7wc&quot;</span> <span class="na">width</span><span class="o">=</span><span class="s">&quot;1200&quot;</span> <span class="na">height</span><span class="o">=</span><span class="s">&quot;500&quot;</span> <span class="na">style</span><span class="o">=</span><span class="s">&quot;border: 1px solid #ccc&quot;</span> <span class="na">frameborder</span><span class="o">=</span><span class="s">0</span><span class="p">&gt;&lt;/</span><span class="nt">iframe</span><span class="p">&gt;</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_html"><iframe style="margin-top:0px;margin-left:-20px;" src="https://www.desmos.com/calculator/pgemmiv7wc" width="1200" height="500" style="border: 1px solid #ccc" frameborder=0></iframe>
+</div></div>
+</div>
+<div class="math notranslate nohighlight">
+\[\textbf{V - Avaliando a situação}\]</div>
+<p><strong>9.</strong> Considerando o gráfico apresentado, avalie qual regime de juros se mostra mais vantajoso ao longo do tempo. Justifique sua resposta com base no comportamento dos montantes, explicando por que, a partir de determinado mês, um regime supera o outro</p>
+<div class="tip dropdown admonition">
+<p class="admonition-title">Sugestão!</p>
+<p>Analise o comportamento das duas curvas no gráfico e verifique qual delas cresce de forma mais acelerada ao longo do tempo e pense no efeito do juro sobre juro. Utilize essas observações para justificar qual regime se torna mais vantajoso e em que tipo de prazo isso acontece.</p>
+</div>
+<p><strong>Atividade 8</strong></p>
+<p>Considere um capital inicial de R$ 5.000,00, aplicado à taxa de 10% ao ano, nos regimes de juros simples e juros compostos, pelos prazos de 1, 2, 3, 4 e 5 anos.</p>
+<p><strong>a)</strong> Organize os valores dos montantes em uma tabela comparativa para os dois regimes de juros.</p>
+<p><strong>b)</strong> Analise o comportamento do crescimento dos montantes ao longo do tempo, identificando onde a proporcionalidade é mantida e onde deixa de ser.</p>
+<p><strong>c)</strong> Avalie qual regime de juros é mais vantajoso ao longo do prazo analisado e justifique sua conclusão, utilizando como critérios os dados da tabela e o conceito de proporcionalidade.</p>
+<div class="tip dropdown admonition">
+<p class="admonition-title">Sugestão!</p>
+<p>a) Apoie-se nas tabelas do gráfico <em>Juros simples x Juros compostos</em>
+b) Retorne ao conceito de proporcionalidade</p>
+</div>
+<p><strong>10. Discussão em grupo:</strong> Um investidor afirma que juros compostos são desproporcionais com relação ao tempo. Vocês concordam ou não? Justifique e exemplifique com cálculos comparativos.</p>
+<div class="math notranslate nohighlight">
+\[\textbf{VI - Vamos construir}\]</div>
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+<span class="sd-summary-text">Exemplo de situação problema</span><span class="sd-summary-state-marker sd-summary-chevron-right"><svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-right" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></summary><div class="sd-summary-content sd-card-body docutils">
+<p class="sd-card-text">Um jovem pretende guardar dinheiro para realizar um objetivo pessoal no futuro. Ele dispõe de um capital inicial e está em dúvida entre duas opções de aplicação financeira: uma com juros simples e outra com juros compostos, ambas com a mesma taxa de juros.</p>
+</div>
+</details><p><strong>DESAFIO FINAL</strong></p>
+<p>Elabore um problema original do cotidiano que envolva juros simples e/ou compostos e destaque a noção de proporcionalidade.</p>
+<p><strong>a)</strong> Defina capital inicial, taxa de juros e prazo da aplicação.</p>
+<p><strong>b)</strong> Construa o gráfico comparativo apresentando os montantes nos regimes de juros simples e composto.</p>
+<p><strong>c)</strong> Analise se a relação entre tempo e montante é proporcional em cada caso. Qual opção é mais vantajosa para o objetivo apresentado? Justifique sua escolha.</p>
+<p><strong>d)</strong> O juro composto pode ser vantajoso quando o tempo é aliado. Justifique a afirmativa.</p>
+<div class="tip dropdown admonition">
+<p class="admonition-title">Sugestão!</p>
+<p>Basei-se no Exemplo de situação problema acima. b) Para a construção do gráfico, use o modelo de gráfico abaixo alterando os valores.</p>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="o">%%html</span>
+<span class="p">&lt;</span><span class="nt">iframe</span> <span class="na">style</span><span class="o">=</span><span class="s">&quot;margin-top:0px;margin-left:-20px;&quot;</span> <span class="na">src</span><span class="o">=</span><span class="s">&quot;https://www.desmos.com/calculator/iohgf67hkw?lang=pt-BR&quot;</span> <span class="na">width</span><span class="o">=</span><span class="s">&quot;1200&quot;</span> <span class="na">height</span><span class="o">=</span><span class="s">&quot;500&quot;</span> <span class="na">style</span><span class="o">=</span><span class="s">&quot;border: 1px solid #ccc&quot;</span> <span class="na">frameborder</span><span class="o">=</span><span class="s">0</span><span class="p">&gt;&lt;/</span><span class="nt">iframe</span><span class="p">&gt;</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_html"><iframe style="margin-top:0px;margin-left:-20px;" src="https://www.desmos.com/calculator/iohgf67hkw?lang=pt-BR" width="1200" height="500" style="border: 1px solid #ccc" frameborder=0></iframe>
+</div></div>
+</div>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="Educa%C3%A7%C3%A3o%20financeira.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Proporcionalidade na Educação Financeira</p>
+      </div>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By Flavia Cerqueira Cezar
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  <p class="copyright">
+    
+      © Copyright 2023.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b"></script>
+<script src="_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>
